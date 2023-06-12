@@ -1,0 +1,33 @@
+.cbp-spmenu {
+    background: #47a3da;
+    position: fixed;
+}
+
+.cbp-spmenu a {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid #258ecd;
+    padding: 1em;
+}
+
+.cbp-spmenu-right {
+    right: -240px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+    right: 0px;
+}

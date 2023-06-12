@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LifeMiles Master | Tu futuro es tu mayor reto</title>
+    <meta name="description" content="Blueprint: Slide and Push Menus" />
+    <meta name="keywords" content="sliding menu, pushing menu, navigation, responsive, menu, css, jquery" />
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="cbp-spmenu-push">
+    <header>
+
+        <div class="logo">
+            <img class="img_logo" src="img/LogoLifeMiles-master.png"
+                alt="LifeMiles Master | Tu futuro es tu mayor reto">
+        </div>
+
+        <div class="box" id="showRight">
+            <div class="box-int"></div>
+            <div class="box-int"></div>
+            <div class="box-int"></div>
+        </div>
+
+        <div class="menu cbp-spmenu-right" id="cbp-spmenu-s2">
+            <nav>
+                <ul>
+                    <li> <a href="#index">Mis cursos</a></li>
+                    <li> <a href="#index">Informes</a></li>
+                    <li> <a href="#index">Configuracion</a></li>
+                </ul>
+            </nav>
+            <div class="container_avatar">
+                <div class="img_avatar">
+                    <img class="foto" src="img/Avatar.png" alt="foto usuario">
+                </div>
+                <div class="nombre_avatar">
+                    <p class="p_name">Jeferson Castro</p>
+                    <p class="p_user">Aliado usuario</p>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main class="principal">
+        <div class="box_principal">
+            <div class="box_1">
+                <h1>¡Hola Juan! <br> Bienvenido </h1>
+                <p>Cada día es una nueva oportunidad, por eso hemos creado
+                    para ti contenido en diferentes áreas que te ayudará cada
+                    día a ser mejor y sacar la nota más alta para tu futuro.</p>
+            </div>
+            <div class="box_2">
+                <img class="img_principal" src="img/Character.png" alt="imagen principal del body">
+            </div>
+        </div>
+    </main>
+
+
+    <section class="curse_container">
+
+        <div class="content_courses">
+            <div class="wrapper_course">
+
+                <div class="curse_box1">
+                    <div class="rueda">
+                        <p>75%</p>
+                    </div>
+                    <div class="contenido_box1">
+                        <img class="img_sol" src="img/Sun.png" alt="">
+                        <p class="p1_box1">Al día con LifeMiles</p>
+                        <p class="p2_box1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <a href="#" target="_self" class="bot_box1">
+                        <p>Siguiente lección</p>
+                        <div class="div_flecha">
+                            <img class="img_next" src="img/arrow.svg" alt="flecha de siguiente">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="curse_box1">
+                    <div class="rueda">
+                        <p>100%</p>
+                    </div>
+                    <div class="contenido_box1">
+                        <img class="img_sol" src="/img/left.png" alt="">
+                        <p class="p1_box1">En tus manos</p>
+                        <p class="p2_box1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <a href="#" target="_self" class="bot_box1">
+                        <p>Curso Completado</p>
+                        <div class="numero_bot">
+                            <p>100%</p>
+                            <img class="img_next" src="img/star.svg" alt="flecha de siguiente">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="logo_foother">
+            <img class="img_logo" src="img/bitmap.png" alt="LifeMiles Master | Tu futuro es tu mayor reto">
+
+        </div>
+        <div class="menu_foother">
+            <ul>
+                <li> <a href="#index">Términos y condiciones</a></li>
+                <li> <a href="#index">Políticas de privacidad</a></li>
+                <li> <a href="#index">Acerca de esta actividad</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="js/classie.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.box').click(function () {
+                $('.box').toggleClass('open');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
